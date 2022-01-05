@@ -1,0 +1,28 @@
+.input-control {
+  display: flex;
+  flex-direction: column;
+
+  margin: 10px 0;
+}
+
+.input-control > label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.input-control > input {
+  padding: 0.5rem;
+  font-size: large;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+
+.input-control > input.error {
+  border-color: lightcoral;
+}
+
+.input-control > p.error {
+  font-size: small;
+  color: lightcoral;
+  margin: 0.5rem 0 0 1.5rem;
+}

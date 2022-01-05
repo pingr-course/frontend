@@ -1,0 +1,43 @@
+.Home {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+
+  grid-template-areas:
+    "nav"
+    "left"
+    "right"
+    "foot";
+}
+
+@media screen and (min-width: 1024px) {
+  .Home {
+    grid-template-areas:
+      "nav nav nav nav nav"
+      "left left right right right"
+      "left left right right right"
+      "left left right right right"
+      "foot foot foot foot foot";
+  }
+}
+
+.Home > * {
+  width: auto;
+  height: auto;
+}
+
+.Home > .nav {
+  grid-area: nav;
+}
+
+.Home > .left {
+  grid-area: left;
+}
+
+.Home > .right {
+  grid-area: right;
+}
+
+.Home > .foot {
+  grid-area: foot;
+}
