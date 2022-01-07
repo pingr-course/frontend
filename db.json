@@ -1,0 +1,46 @@
+{
+  "accounts": [
+    {
+      "id": 1,
+      "username": "joaodaniel",
+      "email": "joao@mail.com",
+      "password": "123456"
+    },
+    {
+      "username": "asdasda",
+      "email": "sdada@mail.com",
+      "password": "asd",
+      "id": 2
+    },
+    {
+      "username": "foo",
+      "email": "foo@mail.com",
+      "password": "asd",
+      "id": 3
+    },
+    {
+      "username": "foo",
+      "email": "foo@mail.com",
+      "password": "asd",
+      "id": 4
+    },
+    {
+      "username": "foo",
+      "email": "foo@mail.com",
+      "password": "asd",
+      "id": 5
+    },
+    {
+      "username": "blaus",
+      "email": "blaus@mail.com",
+      "password": "asd",
+      "id": 6
+    },
+    {
+      "username": "pedro",
+      "email": "pedro@mail.com",
+      "password": "asd",
+      "id": 7
+    }
+  ]
+}
