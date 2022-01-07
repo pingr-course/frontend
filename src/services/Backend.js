@@ -26,3 +26,13 @@ export async function getAccount(id) {
     payload: data
   }
 }
+
+export async function getAccounts() {
+  const res = await fetch(backendUrl + '/accounts')
+  const data = await res.json()
+
+  return {
+    status: res.status,
+    payload: data
+  }
+}

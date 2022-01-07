@@ -19,18 +19,6 @@
       "id": 3
     },
     {
-      "username": "foo",
-      "email": "foo@mail.com",
-      "password": "asd",
-      "id": 4
-    },
-    {
-      "username": "foo",
-      "email": "foo@mail.com",
-      "password": "asd",
-      "id": 5
-    },
-    {
       "username": "blaus",
       "email": "blaus@mail.com",
       "password": "asd",
