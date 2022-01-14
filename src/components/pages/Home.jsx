@@ -1,8 +1,6 @@
 import './Home.css'
 import CallToAction from '../CallToAction'
-
-import LabeledInput from '../utils/LabeledInput'
-import Submit from '../utils/Submit'
+import RegistrationForm from '../RegistrationForm'
 
 function Home() {
   const blackBar = {
@@ -20,13 +18,7 @@ function Home() {
       <div className="nav" style={ blackBar }></div>
 
       <CallToAction className="left" />
-
-      <div className="right">
-
-        <LabeledInput label="username" type="text" />
-        <Submit label="create account" />
-
-      </div>
+      <RegistrationForm className="right" />
 
       <div className="foot" style={ blueBar }></div>
     </div>
