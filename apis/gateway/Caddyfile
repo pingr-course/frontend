@@ -1,0 +1,4 @@
+:9000
+
+reverse_proxy /accounts/*/friends localhost:9002
+reverse_proxy * localhost:9001

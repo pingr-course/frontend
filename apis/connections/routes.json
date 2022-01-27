@@ -1,0 +1,3 @@
+{
+  "/accounts/:id/friends": "/friends/:id"
+}
