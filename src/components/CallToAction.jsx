@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import List from './utils/List'
 
 function CallToAction({ className }) {
@@ -12,6 +14,8 @@ function CallToAction({ className }) {
       <h2>Pingr, where you can express yourself!</h2>
 
       <List items={actions} />
+
+      <Link to="/profiles">See who's already here!</Link>
     </aside>
   )
 }

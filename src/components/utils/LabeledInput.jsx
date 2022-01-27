@@ -2,13 +2,13 @@ import './LabeledInput.css'
 
 // caixa de texto, input
 
-function LabeledInput({ label, type }) {
+function LabeledInput({ label, type, value, onChange }) {
   return (
     <div className="input-control">
       <label>
-        { label }
+        {label}
       </label>
-      <input type={type} />
+      <input type={type} value={value} onChange={onChange} />
     </div>
   )
 }
